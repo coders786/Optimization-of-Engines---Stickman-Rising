@@ -1,0 +1,87 @@
+[
+  {
+    "case": "desktop controls + GPU alpha",
+    "result": "PASS",
+    "gpu": {
+      "invalid": 0,
+      "transparent": 928750,
+      "error": 0,
+      "attrs": {
+        "alpha": true,
+        "antialias": false,
+        "depth": false,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "stencil": false,
+        "xrCompatible": false
+      }
+    },
+    "canvases": [
+      {
+        "id": "layer-moon",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-rack",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-cabin",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-cherry",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-hearth",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      }
+    ]
+  },
+  {
+    "case": "fractional DPR damage lattice",
+    "result": "PASS",
+    "damage": [
+      {
+        "id": "layer-sky-fx",
+        "residual": 0,
+        "maxPremult": 0.4470588235294118,
+        "maxAlpha": 0
+      },
+      {
+        "id": "structure-life",
+        "residual": 0,
+        "maxPremult": 1.2470588235294118,
+        "maxAlpha": 1
+      },
+      {
+        "id": "layer-fg-petals",
+        "residual": 0,
+        "maxPremult": 0.8,
+        "maxAlpha": 0
+      }
+    ]
+  },
+  {
+    "case": "portrait + rotation + optional float16 fallback",
+    "result": "PASS"
+  },
+  {
+    "case": "WebGL unavailable fallback",
+    "result": "PASS"
+  }
+]

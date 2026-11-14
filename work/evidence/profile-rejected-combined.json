@@ -1,0 +1,32 @@
+{
+  "density": {
+    "calls": 9,
+    "mean": 22.730901777777778,
+    "median": 21.096369,
+    "contribution": 12.78613225
+  },
+  "media": {
+    "calls": 11,
+    "mean": 25.81826627272727,
+    "median": 25.526765,
+    "contribution": 17.7500580625
+  },
+  "fogPass": {
+    "calls": 6,
+    "mean": 14.874332666666666,
+    "median": 14.714082,
+    "contribution": 5.577874749999999
+  },
+  "sky": {
+    "calls": 16,
+    "mean": 88.7591434375,
+    "median": 83.848694,
+    "contribution": 88.7591434375
+  },
+  "deck": {
+    "calls": 16,
+    "mean": 77.89882087500001,
+    "median": 78.626062,
+    "contribution": 77.89882087500001
+  }
+}

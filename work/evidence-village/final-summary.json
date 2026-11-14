@@ -1,0 +1,214 @@
+{
+  "status": "EXPERIMENTAL \u2014 not promoted",
+  "performanceGate": "FAIL against the smaller live release; PASS against same-village direct reference",
+  "candidate": {
+    "file": "moonlit-sakura-village.html",
+    "bytes": 145355,
+    "sha256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b"
+  },
+  "live": {
+    "file": "moonlit-sakura-optimized.html",
+    "bytes": 96166,
+    "sha256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+    "changed": false
+  },
+  "benchmark": {
+    "baseline": {
+      "sourceSHA256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+      "pages": 2,
+      "trials": 6,
+      "timedFrames": 192,
+      "trialMediansMs": [
+        176.604733,
+        172.413278,
+        172.942191,
+        183.748763,
+        179.776267,
+        174.320779
+      ],
+      "medianOfTrialMediansMs": 175.462756,
+      "medianTrialP95Ms": 246.2163655,
+      "medianCompletedReadbackMs": 184.6000000005588,
+      "medianSubmissionP95Ms": 1.6000000005587935,
+      "errors": [
+        [],
+        []
+      ]
+    },
+    "direct": {
+      "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+      "pages": 2,
+      "trials": 6,
+      "timedFrames": 192,
+      "trialMediansMs": [
+        369.921426,
+        363.825897,
+        367.544016,
+        378.987148,
+        378.10392,
+        385.042557
+      ],
+      "medianOfTrialMediansMs": 374.012673,
+      "medianTrialP95Ms": 454.065022,
+      "medianCompletedReadbackMs": 386.59999999962747,
+      "medianSubmissionP95Ms": 1.9500000001862645,
+      "errors": [
+        [],
+        []
+      ]
+    },
+    "flat": {
+      "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+      "pages": 2,
+      "trials": 6,
+      "timedFrames": 192,
+      "trialMediansMs": [
+        215.413694,
+        222.035847,
+        218.78955,
+        213.072291,
+        217.369151,
+        219.967521
+      ],
+      "medianOfTrialMediansMs": 218.07935049999998,
+      "medianTrialP95Ms": 310.103081,
+      "medianCompletedReadbackMs": 225.3500000005588,
+      "medianSubmissionP95Ms": 1.900000000372529,
+      "errors": [
+        [],
+        []
+      ]
+    },
+    "interval": {
+      "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+      "pages": 2,
+      "trials": 6,
+      "timedFrames": 192,
+      "trialMediansMs": [
+        198.940138,
+        197.519292,
+        202.523103,
+        200.083183,
+        201.413485,
+        213.982702
+      ],
+      "medianOfTrialMediansMs": 200.748334,
+      "medianTrialP95Ms": 284.763058,
+      "medianCompletedReadbackMs": 213.34999999962747,
+      "medianSubmissionP95Ms": 1.8500000005587935,
+      "errors": [
+        [],
+        []
+      ]
+    }
+  },
+  "comparison": {
+    "gpuTimeReductionVsSameSceneDirectPercent": 46.32579361822855,
+    "gpuTimeIncreaseVsLivePercent": 14.410794960954565,
+    "gpuTimeReductionVsOneLevelPercent": 7.947114873675298
+  },
+  "correctness": {
+    "nativeReceivers": 4447140,
+    "maxVisibilityError": 0.0001640617847442627,
+    "maxCaseP99VisibilityError": 9e-06,
+    "certificateFalseAccepts": 0,
+    "maxNativeFramebufferChannelError": 1,
+    "envelopeWindTimeSamples": 480,
+    "checkedStaticSourceTexels": 151075280,
+    "envelopeViolations": 0,
+    "mesaFragmentPrograms": 68,
+    "browserCases": 5,
+    "mockFramesPerConfiguration": 2500,
+    "mockSATPixelWork": "stubbed only in mock; real browser numerical tests use actual pixel work"
+  },
+  "resources": [
+    {
+      "name": "baseline",
+      "sourceSHA256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+      "firstSubmissionMs": 7.700000001117587,
+      "firstCompletedFrameMs": 1456.7000000011176,
+      "navigationToFirstCompletedFrameMs": 2295.9000000003725,
+      "beforeResize": {
+        "liveTextures": 12,
+        "logicalTextureBytes": 11457100,
+        "programs": 8,
+        "formats": {
+          "32856": 7144012,
+          "33325": 1327104,
+          "34842": 2985984
+        }
+      },
+      "afterTwoResizes": {
+        "liveTextures": 12,
+        "logicalTextureBytes": 11457100,
+        "programs": 8,
+        "formats": {
+          "32856": 7144012,
+          "33325": 1327104,
+          "34842": 2985984
+        }
+      },
+      "shadowCPUArrays": null,
+      "glError": 0
+    },
+    {
+      "name": "village",
+      "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+      "firstSubmissionMs": 3026.300000000745,
+      "firstCompletedFrameMs": 3704.2000000011176,
+      "navigationToFirstCompletedFrameMs": 4378,
+      "beforeResize": {
+        "liveTextures": 23,
+        "logicalTextureBytes": 28896844,
+        "programs": 27,
+        "formats": {
+          "32856": 14721100,
+          "33325": 1327104,
+          "33326": 2764800,
+          "33334": 6291456,
+          "34836": 806400,
+          "34842": 2985984
+        }
+      },
+      "afterTwoResizes": {
+        "liveTextures": 23,
+        "logicalTextureBytes": 28896844,
+        "programs": 27,
+        "formats": {
+          "32856": 14721100,
+          "33325": 1327104,
+          "33326": 2764800,
+          "33334": 6291456,
+          "34836": 806400,
+          "34842": 2985984
+        }
+      },
+      "shadowCPUArrays": {
+        "scratch": 1572864,
+        "occupancy": 393216,
+        "motionEnvelopes": 393216,
+        "sourceCanvasRGBABytes": 5767168
+      },
+      "glError": 0
+    }
+  ],
+  "limitations": [
+    "SwiftShader software rendering, not hardware-GPU or Windows/Edge certification",
+    "12 light/camera/softness image cases are sampled tests, not a universal numerical guarantee",
+    "Fog remains a separate 2D atmospheric approximation, not depth-correct volumetric transport",
+    "GPU figures are logical WebGL texture allocations, not driver/process/DOM memory totals",
+    "Startup measurements are single observed cold navigations, not statistical averages"
+  ],
+  "inputs": {
+    "versions/moonlit-sakura-before-village.html": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+    "build-village.py": "269aef38d77a6ced885a76a188326d6e82b6889be096649d96fe82224d5ddd76",
+    "village-components.js": "36d3e34ec9b2c00412fe7d47f92dd2f57db0f3d713daaa41d723b48f2858937d",
+    "shadow-engine.js": "c219ef93eb5b549e28fc662f7545a72e61ac57b7c248adfa11a60f848fbf6c56",
+    "shadow-renderer-methods.js": "dc7d388049998640a548de1f94e83656a545bc498e3d1c985a55f8a4efc5b240",
+    "shadow-native.js": "4708a912b689c60a7dabf334c3ac8c46f421c1f3811d24fbc0ef186fe1cac2df",
+    "shadow-native-methods.js": "e12b2f197e17552c148b0e7082877b71372af867f7ab1cfe0d41c61438b63fde",
+    "shadow-row-shaders.js": "adede89ddb46d2ff31ecf1dad9add32e86ad573bc0e8b6a3ed1e0eba0bb7e05f",
+    "shadow-tiles.js": "47d10a785bcf345f91d151961e4f12050ea3a6f1ed32165c342c4f51d8f54356",
+    "shadow-motion-envelope.js": "09a1744c413d98e61040218434621226e1fb65df5b4ae530f240d2bfbdd50146"
+  }
+}

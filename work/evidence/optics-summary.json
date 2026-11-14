@@ -1,0 +1,59 @@
+{
+  "sha256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+  "baseline": {
+    "trials": 6,
+    "frames": 192,
+    "medianOfTrialMediansMs": 184.2590545,
+    "medianOfTrialP95Ms": 230.816645,
+    "trialMediansMs": [
+      182.837344,
+      189.474875,
+      181.120102,
+      180.523307,
+      200.797197,
+      185.680765
+    ]
+  },
+  "newDirect": {
+    "trials": 3,
+    "frames": 96,
+    "medianOfTrialMediansMs": 189.985131,
+    "medianOfTrialP95Ms": 238.707458,
+    "trialMediansMs": [
+      195.890638,
+      187.875255,
+      189.985131
+    ]
+  },
+  "finalAdaptive": {
+    "trials": 6,
+    "frames": 192,
+    "medianOfTrialMediansMs": 170.45533899999998,
+    "medianOfTrialP95Ms": 232.07192750000002,
+    "trialMediansMs": [
+      170.498355,
+      170.412323,
+      172.110929,
+      169.75376,
+      165.574783,
+      173.549734
+    ]
+  },
+  "medianTimeReductionVsOldPercent": 7.491472013387545,
+  "medianTimeReductionVsNewDirectPercent": 10.279642357906427,
+  "defaultFogAccuracy": {
+    "cases": 8,
+    "meanChannelErrorRange255": [
+      0.004604812956204379,
+      0.00721151828945933
+    ],
+    "maxChannelError255": 2,
+    "maxP99ChannelError255": 0,
+    "maxShadowEdgeChannelError255": 2,
+    "maxRawVisibilityChannelError255": 16,
+    "fieldLogicalBytes": 786432
+  },
+  "tailLatencyImprovementDemonstrated": false,
+  "hardwareValidation": false,
+  "liveHTTP": 200
+}

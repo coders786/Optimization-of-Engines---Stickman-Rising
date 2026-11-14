@@ -1,0 +1,184 @@
+[
+  {
+    "screen": {
+      "width": 960,
+      "height": 720
+    },
+    "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+    "sourceSize": [
+      1024,
+      384
+    ],
+    "cases": [
+      {
+        "strength": 0,
+        "samples": 40,
+        "testedStaticSourceTexels": 11916800,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          17
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 0.7,
+        "samples": 40,
+        "testedStaticSourceTexels": 11916800,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          17
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 1.8,
+        "samples": 40,
+        "testedStaticSourceTexels": 11916800,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          17
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 2,
+        "samples": 40,
+        "testedStaticSourceTexels": 11916800,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          17
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 3,
+        "samples": 40,
+        "testedStaticSourceTexels": 11669560,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 3,
+        "envelopeRadius": [
+          34,
+          17
+        ],
+        "satUploads": 6
+      },
+      {
+        "strength": 0,
+        "samples": 40,
+        "testedStaticSourceTexels": 11669560,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 3,
+        "envelopeRadius": [
+          34,
+          17
+        ],
+        "satUploads": 6
+      }
+    ]
+  },
+  {
+    "screen": {
+      "width": 430,
+      "height": 932
+    },
+    "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+    "sourceSize": [
+      1024,
+      384
+    ],
+    "cases": [
+      {
+        "strength": 0,
+        "samples": 40,
+        "testedStaticSourceTexels": 13403000,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          11
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 0.7,
+        "samples": 40,
+        "testedStaticSourceTexels": 13403000,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          11
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 1.8,
+        "samples": 40,
+        "testedStaticSourceTexels": 13403000,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          11
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 2,
+        "samples": 40,
+        "testedStaticSourceTexels": 13403000,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 2,
+        "envelopeRadius": [
+          29,
+          11
+        ],
+        "satUploads": 5
+      },
+      {
+        "strength": 3,
+        "samples": 40,
+        "testedStaticSourceTexels": 13228480,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 3,
+        "envelopeRadius": [
+          34,
+          11
+        ],
+        "satUploads": 6
+      },
+      {
+        "strength": 0,
+        "samples": 40,
+        "testedStaticSourceTexels": 13228480,
+        "violations": 0,
+        "first": [],
+        "envelopeWind": 3,
+        "envelopeRadius": [
+          34,
+          11
+        ],
+        "satUploads": 6
+      }
+    ]
+  }
+]

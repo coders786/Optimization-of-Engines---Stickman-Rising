@@ -1,0 +1,126 @@
+[
+  {
+    "case": "desktop controls + GPU alpha",
+    "result": "PASS",
+    "gpu": {
+      "invalid": 0,
+      "transparent": 942500,
+      "error": 0,
+      "attrs": {
+        "alpha": true,
+        "antialias": false,
+        "depth": false,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "stencil": false,
+        "xrCompatible": false
+      }
+    },
+    "wind": {
+      "derivativeError": 2.008702093547754e-10,
+      "displacementJump": 1.106930491712177e-8,
+      "strength": 1.8,
+      "counts": {
+        "stars": 120,
+        "mist": 16,
+        "blossoms": 248,
+        "petals": 18,
+        "embers": 10,
+        "birds": 5,
+        "foreground": 24,
+        "extreme": 14
+      }
+    },
+    "canvases": [
+      {
+        "id": "layer-moon",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-rack",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-cabin",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-cherry",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      },
+      {
+        "id": "structure-hearth",
+        "alpha": true,
+        "desync": false,
+        "corner": 0
+      }
+    ]
+  },
+  {
+    "case": "fractional DPR damage lattice",
+    "result": "PASS",
+    "damage": [
+      {
+        "id": "layer-sky-fx",
+        "residual": 0,
+        "maxPremult": 0.4,
+        "maxAlpha": 0
+      },
+      {
+        "id": "structure-life",
+        "residual": 0,
+        "maxPremult": 1,
+        "maxAlpha": 1
+      },
+      {
+        "id": "layer-fg-petals",
+        "residual": 0,
+        "maxPremult": 0.8,
+        "maxAlpha": 0
+      }
+    ]
+  },
+  {
+    "case": "portrait + rotation + optional float16 fallback",
+    "result": "PASS"
+  },
+  {
+    "case": "WebGL unavailable fallback",
+    "result": "PASS"
+  },
+  {
+    "case": "packed targets + upper specialization + actual context loss/restoration",
+    "result": "PASS",
+    "packed": {
+      "floatTargets": false,
+      "glError": 0,
+      "specializationMaxError": 0,
+      "specializationDifferentChannels": 0,
+      "field": [
+        512,
+        192
+      ],
+      "fieldBytes": 786432,
+      "waterCapacity": [
+        257,
+        140
+      ]
+    },
+    "restored": {
+      "error": 0,
+      "ready": true,
+      "packed": true
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "baseline",
+    "sourceSHA256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+    "firstSubmissionMs": 7.700000001117587,
+    "firstCompletedFrameMs": 1456.7000000011176,
+    "navigationToFirstCompletedFrameMs": 2295.9000000003725,
+    "beforeResize": {
+      "liveTextures": 12,
+      "logicalTextureBytes": 11457100,
+      "programs": 8,
+      "formats": {
+        "32856": 7144012,
+        "33325": 1327104,
+        "34842": 2985984
+      }
+    },
+    "afterTwoResizes": {
+      "liveTextures": 12,
+      "logicalTextureBytes": 11457100,
+      "programs": 8,
+      "formats": {
+        "32856": 7144012,
+        "33325": 1327104,
+        "34842": 2985984
+      }
+    },
+    "shadowCPUArrays": null,
+    "glError": 0
+  },
+  {
+    "name": "village",
+    "sourceSHA256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+    "firstSubmissionMs": 3026.300000000745,
+    "firstCompletedFrameMs": 3704.2000000011176,
+    "navigationToFirstCompletedFrameMs": 4378,
+    "beforeResize": {
+      "liveTextures": 23,
+      "logicalTextureBytes": 28896844,
+      "programs": 27,
+      "formats": {
+        "32856": 14721100,
+        "33325": 1327104,
+        "33326": 2764800,
+        "33334": 6291456,
+        "34836": 806400,
+        "34842": 2985984
+      }
+    },
+    "afterTwoResizes": {
+      "liveTextures": 23,
+      "logicalTextureBytes": 28896844,
+      "programs": 27,
+      "formats": {
+        "32856": 14721100,
+        "33325": 1327104,
+        "33326": 2764800,
+        "33334": 6291456,
+        "34836": 806400,
+        "34842": 2985984
+      }
+    },
+    "shadowCPUArrays": {
+      "scratch": 1572864,
+      "occupancy": 393216,
+      "motionEnvelopes": 393216,
+      "sourceCanvasRGBABytes": 5767168
+    },
+    "glError": 0
+  }
+]

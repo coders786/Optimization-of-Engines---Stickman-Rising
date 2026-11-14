@@ -1,0 +1,478 @@
+[
+  {
+    "backing": [
+      960,
+      720
+    ],
+    "cases": [
+      {
+        "pose": {
+          "x": 0.8,
+          "y": 0.275,
+          "soft": 1,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 8919,
+          "fullRayReceivers": 7878
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 5125,
+          "fullRayReceivers": 11457
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.13,
+          "y": 0.55,
+          "soft": 2.4,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 7445,
+          "fullRayReceivers": 34047
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 2071,
+          "fullRayReceivers": 35838
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.9,
+          "y": 0.1,
+          "soft": 0.4,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 8765,
+          "fullRayReceivers": 3728
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 7564,
+          "fullRayReceivers": 4192
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.5,
+          "y": 0.57,
+          "soft": 1,
+          "cx": 0.055,
+          "cy": -0.03
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 12923,
+          "fullRayReceivers": 19498
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 5144,
+          "fullRayReceivers": 24540
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.17,
+          "y": 0.28,
+          "soft": 0.4,
+          "cx": -0.04,
+          "cy": 0.03
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 11702,
+          "fullRayReceivers": 6899
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 10379,
+          "fullRayReceivers": 7497
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.84,
+          "y": 0.56,
+          "soft": 2.4,
+          "cx": 0.02,
+          "cy": 0.02
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 7620,
+          "fullRayReceivers": 29473
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 2063,
+          "fullRayReceivers": 31304
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      }
+    ],
+    "refitsForLightEdit": 0,
+    "glError": 0,
+    "screen": {
+      "width": 960,
+      "height": 720,
+      "dpr": 1
+    },
+    "sourceSHA256": "47e879902c778ff48c7873a27b7770c23acf99770b47515714589473b715af23"
+  },
+  {
+    "backing": [
+      538,
+      1165
+    ],
+    "cases": [
+      {
+        "pose": {
+          "x": 0.8,
+          "y": 0.275,
+          "soft": 1,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 4776,
+          "fullRayReceivers": 5132
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 2536,
+          "fullRayReceivers": 7218
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.13,
+          "y": 0.55,
+          "soft": 2.4,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 3461,
+          "fullRayReceivers": 27520
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 1125,
+          "fullRayReceivers": 29073
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.9,
+          "y": 0.1,
+          "soft": 0.4,
+          "cx": 0,
+          "cy": 0
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 4307,
+          "fullRayReceivers": 2479
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 3209,
+          "fullRayReceivers": 3274
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.5,
+          "y": 0.57,
+          "soft": 1,
+          "cx": 0.055,
+          "cy": -0.03
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 6859,
+          "fullRayReceivers": 14503
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 2453,
+          "fullRayReceivers": 18581
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.17,
+          "y": 0.28,
+          "soft": 0.4,
+          "cx": -0.04,
+          "cy": 0.03
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 6287,
+          "fullRayReceivers": 4212
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 4661,
+          "fullRayReceivers": 5459
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      },
+      {
+        "pose": {
+          "x": 0.84,
+          "y": 0.56,
+          "soft": 2.4,
+          "cx": 0.02,
+          "cy": 0.02
+        },
+        "hierarchical": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 3607,
+          "fullRayReceivers": 27523
+        },
+        "flat": {
+          "receivers": 49152,
+          "maxVisibilityError": 0,
+          "meanVisibilityError": 0,
+          "overTolerance": 0,
+          "certificateFalseAccepts": 0,
+          "receiversWithCertificate": 1113,
+          "fullRayReceivers": 28816
+        },
+        "nativeHierarchical": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        },
+        "nativeFlat": {
+          "maxChannelError": 0,
+          "meanChannelError": 0,
+          "channelsOver1": 0
+        }
+      }
+    ],
+    "refitsForLightEdit": 0,
+    "glError": 0,
+    "screen": {
+      "width": 430,
+      "height": 932,
+      "dpr": 1.5
+    },
+    "sourceSHA256": "47e879902c778ff48c7873a27b7770c23acf99770b47515714589473b715af23"
+  }
+]

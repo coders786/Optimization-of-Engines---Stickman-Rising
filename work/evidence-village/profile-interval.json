@@ -1,0 +1,134 @@
+{
+  "density": {
+    "calls": 9,
+    "mean": 18.43482311111111,
+    "median": 17.667445,
+    "contribution": 10.369588
+  },
+  "media": {
+    "calls": 11,
+    "mean": 23.516121818181816,
+    "median": 21.696958,
+    "contribution": 16.167333749999997
+  },
+  "shadowRows": {
+    "calls": 16,
+    "mean": 0.432765875,
+    "median": 0.345715,
+    "contribution": 0.432765875
+  },
+  "proof-1": {
+    "calls": 16,
+    "mean": 1.8986316874999998,
+    "median": 1.67241,
+    "contribution": 1.8986316874999998
+  },
+  "proof-3": {
+    "calls": 16,
+    "mean": 2.1795696875,
+    "median": 2.051092,
+    "contribution": 2.1795696875
+  },
+  "proof-2": {
+    "calls": 16,
+    "mean": 1.3506765,
+    "median": 1.162925,
+    "contribution": 1.3506765
+  },
+  "proof-4": {
+    "calls": 16,
+    "mean": 0.9474652500000001,
+    "median": 0.876993,
+    "contribution": 0.9474652500000001
+  },
+  "proof-8": {
+    "calls": 16,
+    "mean": 0.5757623125,
+    "median": 0.517165,
+    "contribution": 0.5757623125
+  },
+  "proof-16": {
+    "calls": 16,
+    "mean": 0.33284275,
+    "median": 0.276935,
+    "contribution": 0.33284275
+  },
+  "nativeShadow-33": {
+    "calls": 16,
+    "mean": 10.9855810625,
+    "median": 9.842096,
+    "contribution": 10.9855810625
+  },
+  "nativeShadow-35": {
+    "calls": 16,
+    "mean": 9.244184624999999,
+    "median": 9.042773,
+    "contribution": 9.244184624999999
+  },
+  "nativeShadow-34": {
+    "calls": 16,
+    "mean": 4.6348871875,
+    "median": 4.510241,
+    "contribution": 4.6348871875
+  },
+  "nativeShadow-36": {
+    "calls": 16,
+    "mean": 3.6107646250000003,
+    "median": 3.53,
+    "contribution": 3.6107646250000003
+  },
+  "nativeShadow-40": {
+    "calls": 16,
+    "mean": 2.238599125,
+    "median": 2.294831,
+    "contribution": 2.238599125
+  },
+  "nativeShadow-48": {
+    "calls": 16,
+    "mean": 1.2220591250000001,
+    "median": 1.188471,
+    "contribution": 1.2220591250000001
+  },
+  "fogPass": {
+    "calls": 6,
+    "mean": 13.012672166666666,
+    "median": 12.173429,
+    "contribution": 4.8797520625
+  },
+  "fogGuard": {
+    "calls": 6,
+    "mean": 7.107319999999999,
+    "median": 6.984366,
+    "contribution": 2.6652449999999996
+  },
+  "skyHigh": {
+    "calls": 16,
+    "mean": 33.16518625,
+    "median": 32.180892,
+    "contribution": 33.16518625
+  },
+  "sky": {
+    "calls": 16,
+    "mean": 10.6001058125,
+    "median": 10.335655,
+    "contribution": 10.6001058125
+  },
+  "nativeVillage": {
+    "calls": 16,
+    "mean": 46.06390143749999,
+    "median": 44.615623,
+    "contribution": 46.06390143749999
+  },
+  "nativeDeck": {
+    "calls": 16,
+    "mean": 29.319012437499996,
+    "median": 29.620102,
+    "contribution": 29.319012437499996
+  },
+  "water": {
+    "calls": 16,
+    "mean": 3.68730525,
+    "median": 3.5859,
+    "contribution": 3.68730525
+  }
+}

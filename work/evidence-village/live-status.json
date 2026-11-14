@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "port": 3000,
+      "file": "moonlit-sakura-optimized.html",
+      "status": 200,
+      "bytes": 96166,
+      "sha256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+      "role": "unchanged main release"
+    },
+    {
+      "port": 3001,
+      "file": "moonlit-sakura-village.html",
+      "status": 200,
+      "bytes": 145355,
+      "sha256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b",
+      "role": "experimental village candidate"
+    }
+  ],
+  "candidateProcessId": "village-shadow-engine-candidate-ee2e1667",
+  "candidatePromoted": false
+}

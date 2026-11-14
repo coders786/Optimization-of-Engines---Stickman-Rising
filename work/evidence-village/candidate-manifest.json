@@ -1,0 +1,38 @@
+{
+  "status": "EXPERIMENTAL \u2014 not promoted",
+  "candidate": {
+    "file": "moonlit-sakura-village.html",
+    "bytes": 145355,
+    "sha256": "14143ecfb36335586a2f24ef099c0e26e3a836b1f86799da64eb90a219d8e36b"
+  },
+  "live": {
+    "file": "moonlit-sakura-optimized.html",
+    "bytes": 96166,
+    "sha256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+    "changed": false
+  },
+  "inputs": {
+    "versions/moonlit-sakura-before-village.html": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+    "build-village.py": "269aef38d77a6ced885a76a188326d6e82b6889be096649d96fe82224d5ddd76",
+    "village-components.js": "36d3e34ec9b2c00412fe7d47f92dd2f57db0f3d713daaa41d723b48f2858937d",
+    "shadow-engine.js": "c219ef93eb5b549e28fc662f7545a72e61ac57b7c248adfa11a60f848fbf6c56",
+    "shadow-renderer-methods.js": "dc7d388049998640a548de1f94e83656a545bc498e3d1c985a55f8a4efc5b240",
+    "shadow-native.js": "4708a912b689c60a7dabf334c3ac8c46f421c1f3811d24fbc0ef186fe1cac2df",
+    "shadow-native-methods.js": "e12b2f197e17552c148b0e7082877b71372af867f7ab1cfe0d41c61438b63fde",
+    "shadow-row-shaders.js": "adede89ddb46d2ff31ecf1dad9add32e86ad573bc0e8b6a3ed1e0eba0bb7e05f",
+    "shadow-tiles.js": "47d10a785bcf345f91d151961e4f12050ea3a6f1ed32165c342c4f51d8f54356",
+    "shadow-motion-envelope.js": "09a1744c413d98e61040218434621226e1fb65df5b4ae530f240d2bfbdd50146"
+  },
+  "proof": "VILLAGE-PROOF.md",
+  "summary": "evidence-village/final-summary.json",
+  "benchmarkFiles": [
+    "evidence-village/benchmark-baseline-final-a.json",
+    "evidence-village/benchmark-baseline-final-b.json",
+    "evidence-village/benchmark-direct-final-a.json",
+    "evidence-village/benchmark-direct-final-b.json",
+    "evidence-village/benchmark-flat-final-a.json",
+    "evidence-village/benchmark-flat-final-b.json",
+    "evidence-village/benchmark-interval-final-a.json",
+    "evidence-village/benchmark-interval-final-b.json"
+  ]
+}

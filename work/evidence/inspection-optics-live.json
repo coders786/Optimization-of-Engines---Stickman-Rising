@@ -1,0 +1,437 @@
+{
+  "errors": [],
+  "report": [
+    {
+      "id": "layer-sky-static",
+      "attrs": {
+        "alpha": false,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        1,
+        4,
+        255
+      ],
+      "size": [
+        1120,
+        900
+      ],
+      "rect": [
+        -59.279109954833984,
+        -49.61552429199219,
+        1120,
+        900
+      ]
+    },
+    {
+      "id": "layer-sky-fx",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1120,
+        668
+      ],
+      "rect": [
+        -59.279109954833984,
+        -49.61552429199219,
+        1120,
+        668
+      ]
+    },
+    {
+      "id": "layer-moon",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        421,
+        421
+      ],
+      "rect": [
+        591.4706420898438,
+        10.314605712890625,
+        421.22711181640625,
+        421.22711181640625
+      ]
+    },
+    {
+      "id": "mid-static",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1280,
+        420
+      ],
+      "rect": [
+        -133.27169799804688,
+        353.58843994140625,
+        1280,
+        420
+      ]
+    },
+    {
+      "id": "mid-deadtree",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        149,
+        161
+      ],
+      "rect": [
+        0.728302001953125,
+        363.58843994140625,
+        149,
+        161
+      ]
+    },
+    {
+      "id": "layer-mist",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1320,
+        392
+      ],
+      "rect": [
+        -149.42694091796875,
+        377.63897705078125,
+        1320,
+        392
+      ]
+    },
+    {
+      "id": "layer-raytrace-deck",
+      "attrs": {
+        "alpha": true,
+        "antialias": false,
+        "depth": false,
+        "desynchronized": false,
+        "failIfMajorPerformanceCaveat": false,
+        "powerPreference": "high-performance",
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "stencil": false,
+        "xrCompatible": false
+      },
+      "corner": [],
+      "size": [
+        1000,
+        800
+      ],
+      "rect": [
+        0,
+        0,
+        1000,
+        800
+      ]
+    },
+    {
+      "id": "layer-deck-fallback",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1000,
+        800
+      ],
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "structure-rack",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        191,
+        205
+      ],
+      "rect": [
+        251.80136108398438,
+        404.4148864746094,
+        191,
+        204.79690551757812
+      ]
+    },
+    {
+      "id": "structure-cabin",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        204,
+        129
+      ],
+      "rect": [
+        416.3013610839844,
+        496.2273864746094,
+        204.00003051757812,
+        129.00003051757812
+      ]
+    },
+    {
+      "id": "structure-hearth",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        137,
+        297
+      ],
+      "rect": [
+        451.5669860839844,
+        413.2273864746094,
+        137.15628051757812,
+        296.6250305175781
+      ]
+    },
+    {
+      "id": "structure-cherry",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        225,
+        198
+      ],
+      "rect": [
+        602.8951416015625,
+        429.8211364746094,
+        224.796875,
+        198.00003051757812
+      ]
+    },
+    {
+      "id": "structure-life",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1000,
+        800
+      ],
+      "rect": [
+        17.301361083984375,
+        9.227394104003906,
+        1000,
+        800
+      ]
+    },
+    {
+      "id": "layer-ray-overlay",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1000,
+        800
+      ],
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "layer-fg-petals",
+      "attrs": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "size": [
+        1000,
+        800
+      ],
+      "rect": [
+        0,
+        0,
+        1000,
+        800
+      ]
+    }
+  ]
+}

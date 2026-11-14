@@ -1,0 +1,3 @@
+PASS Canvas fallback packed 0 GL draws 0 programs
+PASS WebGL mock float 48086 GL draws 38 programs
+PASS WebGL mock packed 39470 GL draws 30 programs

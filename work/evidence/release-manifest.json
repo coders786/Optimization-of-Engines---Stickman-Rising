@@ -1,0 +1,19 @@
+{
+  "file": "moonlit-sakura-optimized.html",
+  "candidate": "moonlit-sakura-optics.html",
+  "sha256": "b1845d5d2b3adfeb47f3d810a3556e37f90ab9d510f05b34090d0ef51ac8bff0",
+  "bytes": 96166,
+  "liveHTTP": 200,
+  "liveMatchesTestedSource": true,
+  "baseline": "versions/moonlit-sakura-before-optics.html",
+  "benchmarks": [
+    "baseline-a",
+    "reference-final",
+    "optimized-a",
+    "optimized-b",
+    "baseline-b"
+  ],
+  "browserReport": "evidence/browser-optics.json",
+  "accuracyReport": "evidence/fog-error.json",
+  "rendererScope": "Chromium 159 / ANGLE Vulkan SwiftShader software renderer; not Windows Edge/hardware GPU validation"
+}
